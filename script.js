@@ -1,0 +1,7 @@
+// variables
+
+
+$( document ).ready();
+
+
+// functions
