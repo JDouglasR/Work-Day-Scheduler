@@ -40,6 +40,7 @@ $(document).ready(function() {
 
 
     // display current date and time in header.
+    
     $("#currentDay").text(date).append($('<div>').text(currentTime));
 
 
@@ -71,18 +72,21 @@ $(document).ready(function() {
 
 
     // Render key/value to message text space.
+
     renderMsg = () => {
         for (var i = 0;i < apptsArr.length; i++){
             $(`td[data-time="${apptsArr[i].time}"]`).children("textarea").val(apptsArr[i].msg);
         }
     }
+
+
+
     // Get stored key/value pair from local storage and update array.
     grabAppts = () => {
         var storedAppts = JSON.parse(localStorage.getItem('Appointments'));
 
         if (storedAppts) {
             apptsArr = storedAppts;
-            console.log(apptsArr);
         }
         renderMsg();
     }
@@ -96,8 +100,8 @@ $(document).ready(function() {
         var textVal = $(this).prev().children("textarea").val();
         var textTime = $(this).prev().attr("data-time");
         for (var i = 0;i < apptsArr.length; i++){
-            if (apptsArr[i].time == textTime){
-                apptsArr[i].msg == textVal;
+            if (apptsArr[i].time === textTime){
+                apptsArr[i].msg = textVal;
             }
         }
         localStorage.setItem('Appointments', JSON.stringify(apptsArr));
