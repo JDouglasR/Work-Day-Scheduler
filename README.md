@@ -7,4 +7,4 @@ The purpose of this homework assignment was to create a simple calendar applicat
 https://jdouglasr.github.io/Work-Day-Scheduler/
 
 ### __Image of 'index.html'__
-![index.html](/assets/pg-index-page.png)
+![index.html](/img/workday-img.png)
