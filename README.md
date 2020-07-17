@@ -1,10 +1,11 @@
 # Work-Day-Scheduler __*Work Day Scheduler*__
 
 ## __Detials About This Assignment__
-The purpose of this homework assignment was to create a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+The purpose of this homework assignment was to use the OpenWeather API to retrieve weather data for cities. The documentation includes a section called "How to start" that will provide basic setup and usage instructions. Use localStorage to store any persistent data.
 
 ### __Link To Website__
-https://jdouglasr.github.io/Work-Day-Scheduler/
+https://jdouglasr.github.io/Weather-Dashboard/
+
 
 ### __Image of 'index.html'__
-![index.html](/img/workday-img.png)
+![index.html](/img/weather-dashboard.png)
