@@ -1,4 +1,4 @@
-# Work-Day-Scheduler __*Work Day Scheduler*__
+# __*Work Day Scheduler*__
 
 ## __Detials About This Assignment__
 The purpose of this homework assignment was to use the OpenWeather API to retrieve weather data for cities. The documentation includes a section called "How to start" that will provide basic setup and usage instructions. Use localStorage to store any persistent data.
