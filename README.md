@@ -9,4 +9,4 @@ https://jdouglasr.github.io/Weather-Dashboard/
 
 
 ### __Image of 'index.html'__
-![index.html](/img/Weather-Dashboard.png)
+![Landing Page](/img/workday-img.png)
